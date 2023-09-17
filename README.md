@@ -17,9 +17,12 @@ Steps:
 # Results:
 
 ### **<u>Before Applying RAG:</u>**
+
 ![Before RAG Technique](images/Before.png)
 
+
 ### **<u>After Applying RAG:</u>**
+
 ![After Applying RAG Technique](images/gradio_app.png)
 
 ---

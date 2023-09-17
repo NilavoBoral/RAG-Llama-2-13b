@@ -14,12 +14,6 @@ Steps:
 
 ---
 
-As of now, I have been using the Llama-2 paper as a PDF. 
-However, we can pass any information from various types of documents to make the model aware of specific topics. 
-This approach can address a common issue with many language models: their lack of awareness of recent topics.
-
----
-
 # Results:
 
 ### Before Applying RAG
@@ -27,3 +21,9 @@ This approach can address a common issue with many language models: their lack o
 
 ### After Applying RAG
 ![After Applying RAG Technique](images/After.png)
+
+---
+
+As of now, I have been using the Llama-2 paper as a PDF. 
+However, we can pass any information from various types of documents to make the model aware of specific topics. 
+This approach can address a common issue with many language models: their lack of awareness of recent topics.

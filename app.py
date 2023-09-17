@@ -15,6 +15,12 @@ from langchain.vectorstores import Pinecone
 from langchain.chains import RetrievalQA
 import gradio as gr
 
+# Personal tokens
+environment="pinecone_environment_name",
+api_key="pinecone_api_key"
+hf_auth = 'your-huggingface-access-tokens'
+
+
 # Define the model from Hugging Face
 model_id = 'meta-llama/Llama-2-13b-chat-hf'
 
@@ -30,7 +36,7 @@ bnb_config = transformers.BitsAndBytesConfig(
 )
 
 # begin initializing HF items, need auth token for these
-hf_auth = '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'
+hf_auth = hf_auth
 model_config = transformers.AutoConfig.from_pretrained(
     model_id,
     use_auth_token=hf_auth
@@ -69,8 +75,8 @@ llm = HuggingFacePipeline(pipeline=generate_text)
 
 # get API key from app.pinecone.io and environment from console
 pinecone.init(
-    environment="gcp-starter",
-    api_key="a7dddfc1-8eb3-477e-bc69-0b52f0ee201a"
+    environment=environment,
+    api_key=api_key
 )
 
 index_name = 'rag-llama-2-paper'

@@ -7,7 +7,8 @@ In this project, I have implemented the Llama-2 model to retrieve information ab
 
 Steps:
 
-- Encode the Llama-2 paper into a vector representation and store it in a vector database (Pinecone).
+- Convert the Llama-2 paper PDF into text.
+- Encode text into a vector representation and store it in a vector database (Pinecone).
 - When a question is asked, retrieve the most relevant part from the vector database.
 - Augment the input question with the retrieved part of the documents.
 - Pass the augmented question to a Llama-2 model to generate the output answer.

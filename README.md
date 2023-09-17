@@ -23,7 +23,7 @@ Steps:
 
 ### **<u>After Applying RAG:</u>**
 
-![After Applying RAG Technique](images/gradio_app.png)
+![After Applying RAG Technique](images/gradio.png)
 
 ---
 

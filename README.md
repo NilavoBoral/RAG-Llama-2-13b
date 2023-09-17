@@ -16,10 +16,10 @@ Steps:
 
 # Results:
 
-### Before Applying RAG
+### **Before Applying RAG:**
 ![Before RAG Technique](images/Before.png)
 
-### After Applying RAG
+### **After Applying RAG:**
 ![After Applying RAG Technique](images/gradio_app.png)
 
 ---

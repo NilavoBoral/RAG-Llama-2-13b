@@ -22,5 +22,8 @@ This approach can address a common issue with many language models: their lack o
 
 Results:
 
+# Before Applying RAG
 ![Before RAG Technique](images/Before.png)
+
+# After Applying RAG
 ![After Applying RAG Technique](images/After.png)

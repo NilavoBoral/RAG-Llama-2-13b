@@ -20,7 +20,7 @@ Steps:
 ![Before RAG Technique](images/Before.png)
 
 ### After Applying RAG
-![After Applying RAG Technique](images/gradio_local_app.png)
+![After Applying RAG Technique](images/gradio_app.png)
 
 ---
 

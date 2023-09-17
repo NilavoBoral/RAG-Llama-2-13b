@@ -5,6 +5,8 @@ RAG on Llama-2-13B to answer questions about itself.
 Llama-2 is one of the state-of-the-art Large Language Models. 
 In this project, I have implemented the Llama-2 model to retrieve information about itself and answer user queries.
 
+[Notebook](RAG_llama_2_13b.ipynb)
+
 Steps:
 
 - Convert the Llama-2 paper PDF into text.

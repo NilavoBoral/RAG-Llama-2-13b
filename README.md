@@ -1,8 +1,8 @@
 # Retrieval Augmented Generation on Llama-2-13b
 
-RAG on Llama-2-13B to answer questions about the itself
+RAG on Llama-2-13B to answer questions about itself.
 
-Llama-2 is one of the state-of-the-art Large Language Model. 
+Llama-2 is one of the state-of-the-art Large Language Models. 
 In this project, I have implemented the Llama-2 model to retrieve information about itself and answer user queries.
 
 Steps:
@@ -14,6 +14,6 @@ Steps:
 
 ---
 
-As of now, I have been using the Llama-2 paper as PDF. 
-However, we can pass any kind of information from various types of documents to make the model aware of specific topics. 
-This approach can address a common issue with many language models, which is their lack of awareness of recent topics.
+As of now, I have been using the Llama-2 paper as a PDF. 
+However, we can pass any information from various types of documents to make the model aware of specific topics. 
+This approach can address a common issue with many language models: their lack of awareness of recent topics.
